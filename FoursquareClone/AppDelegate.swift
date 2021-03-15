@@ -17,8 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         let configuration = ParseClientConfiguration {
-            $0.applicationId = "rMoB6siVaooJtPq8yT6XgC3N9Q3TpZQChs62S3qy"
-            $0.clientKey = "npvM4N8PeMRTmVX9unatXlAPxWI6SMvbjf5FA6Re"
+            $0.applicationId = ""
+            $0.clientKey = ""
             $0.server = "https://parseapi.back4app.com"
         }
         Parse.initialize(with: configuration)
